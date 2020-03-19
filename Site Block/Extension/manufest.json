@@ -6,7 +6,7 @@
   "description": "This extension try to block entree to website"
   "developer": {
     "name": "Kirill Goryunov",
-    "url": "https://github.com/Pepseman727/WebExtensions"
+    "url": "https://github.com/Pepseman727/WebExtensions/tree/master/Site%20Block"
   },
   "icons": {
     "32": "icons/ico32",
