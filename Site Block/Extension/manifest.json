@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "SiteBlock",
+  "version": "1.0",
+  "short_name": "SB",
+  "description": "This extension try to block entree to website",
+  "developer": {
+    "name": "Kirill Goryunov",
+    "url": "https://github.com/Pepseman727/WebExtensions/tree/master/Site%20Block"
+  },
+  "icons": {
+    "32": "icons/ico32.png",
+    "48": "icons/ico48.png",
+    "64": "icons/ico64.png",
+    "96": "icons/ico96.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "gorunov-kirill@mail.ru",
+      "strict_min_version": "45.0"
+    }
+  },
+  "browser_action": {
+    "default_icon": "icons/ico96.png",
+    "default_popup": "browser_popup/menu.html"
+  },
+  "permissions": [ "activeTab" ],
+  "content_scripts": [
+    {
+      "matches": [ "*../" ],
+      "js": [ "script.js" ]
+    }
+  ]
+}

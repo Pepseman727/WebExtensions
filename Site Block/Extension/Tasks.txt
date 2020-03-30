@@ -1,0 +1,7 @@
+General task: develop extension, which blocks websites
+
+Partial task:
+1) Make manifest.json(50%)
+2) Try block all websites
+3) Configure for given websites
+4) Make pictures for menu of extension
