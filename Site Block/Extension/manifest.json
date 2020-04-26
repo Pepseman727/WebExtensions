@@ -27,8 +27,12 @@
   "permissions": [ "activeTab" ],
   "content_scripts": [
     {
-      "matches": [ "*../" ],
-      "js": [ "script.js" ]
+      "css": [ "block_page/blockStyle.css" ],
+      "matches": [ "*://vk.com/*" ],
+      "js": "msg.js"
     }
-  ]
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
 }

@@ -1,7 +1,10 @@
 General task: develop extension, which blocks websites
 
 Partial task:
-1) Make manifest.json(50%)
+// 1) Make manifest.json
 2) Try block all websites
+// 2.1) Try bind script and manifest
+   2.2) Method of blocking
+   -- Picture with text
 3) Configure for given websites
 4) Make pictures for menu of extension

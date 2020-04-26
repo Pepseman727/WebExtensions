@@ -1,0 +1,6 @@
+function BlockPage() {
+    document.body.textContent = "";
+    var warning = document.createElement('h1');
+    warning.textContent = "Sorry, but you have no access to this WebSite :(";
+    document.body.appendChild(warning);
+}
