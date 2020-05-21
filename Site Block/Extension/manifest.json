@@ -24,15 +24,20 @@
     "default_icon": "icons/ico96.png",
     "default_popup": "browser_popup/menu.html"
   },
-  "permissions": [ "activeTab" ],
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "activeTab",
+    "contextMenus"
+  ],
   "content_scripts": [
     {
       "css": [ "block_page/blockStyle.css" ],
-      "matches": [ "*://vk.com/*" ],
-      "js": "msg.js"
+      "matches": [ "*://www.example.com/*" ],
+      "js": [ "instant_block.js" ]
     }
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [ "background.js" ]
   }
 }

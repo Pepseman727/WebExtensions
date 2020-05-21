@@ -1,22 +1,25 @@
 html,
 .menu {
     font-family: "Calibri";
-    background-color: rgb(57,58,58);
-    color: rgb(252,247,247);
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
     min-height: 90px;
-    width: 300px;
+    width: 200px;
 }
 
 .logo {
     margin: 0;
 }
 .logoText {
-    font-size: 22px
+    font-size: 20px
 }
 .logo>span {
     position:relative;
     top: -16px;
     left: 10px;
+}
+.logoImg {
+    float: left;
 }
 
 .menuSep {
