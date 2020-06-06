@@ -22,7 +22,7 @@
   },
   "browser_action": {
     "default_icon": "icons/ico96.png",
-    "default_popup": "browser_popup/menu.html"
+    "default_popup": "popup/popup.html"
   },
   "permissions": [
     "webRequest",
@@ -33,7 +33,7 @@
   "content_scripts": [
     {
       "matches": [ "*://*/*" ],
-      "js": [ "instant_block.js" ]
+      "js": [ "instant_block.js, popup/remove.js" ]
     }
   ],
   "background": {

@@ -14,7 +14,6 @@ browser.contextMenus.onClicked.addListener(function (info, tab) {
         browser.tabs.executeScript({
             file: "block.js"
         });
-
         var querying = browser.tabs.query({
             active: true,
             currentWindow: true
