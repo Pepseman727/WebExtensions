@@ -32,8 +32,7 @@
   ],
   "content_scripts": [
     {
-      "css": [ "block_page/blockStyle.css" ],
-      "matches": [ "*://www.example.com/*" ],
+      "matches": [ "*://*/*" ],
       "js": [ "instant_block.js" ]
     }
   ],
