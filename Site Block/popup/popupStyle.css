@@ -3,49 +3,22 @@ html,
     font-family: "Calibri";
     background-color: rgb(255,255,255);
     color: rgb(0,0,0);
-    min-height: 90px;
-    width: 200px;
+    min-height: 10px;
+    width: 250px;
 }
 
 .logo {
     margin: 0;
 }
 .logoText {
-    font-size: 20px
-}
-.logo>span {
-    position:relative;
-    top: -16px;
-    left: 10px;
+    font-size: 20px;
+    float: left;
+    margin: 4px 0px 0px 10px;
 }
 .logoImg {
     float: left;
 }
 
-.menuSep {
-    display:block;
-    height: 2px;
-    background-color: rgb(37,38,38);
-}
-
-.menuOpt {
-    white-space: nowrap;
-}
-
-.menuOpt>button {
-    font-family: "Arial";
-    display: inline-block;
-    margin: 5px 0px 5px 5px;
-    font-size: 14px;
-    width: 90px;
-    border:1px solid black;
-}
-
-.menuOpt>div:hover {
-    color: rgb(222,70,70);
-}
-
-.LightMode {
-    color:black;
-    background-color: black;
+.pause {
+    margin: 0px 0px 0px 65px; 
 }

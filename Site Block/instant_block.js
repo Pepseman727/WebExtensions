@@ -14,7 +14,3 @@ let blocked = localStorage.getItem('blocked');
 if (blocked === 'YES') {
     BlockSite();
 }
-else {
-    console.log('HUY');
-}
-//«апускаетс€ скрипт, провер€ю Ч есть ли URL в списке запрещЄнных и потом блокирую

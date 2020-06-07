@@ -33,7 +33,7 @@
   "content_scripts": [
     {
       "matches": [ "*://*/*" ],
-      "js": [ "instant_block.js, popup/remove.js" ]
+      "js": [ "instant_block.js" ]
     }
   ],
   "background": {
