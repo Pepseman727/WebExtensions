@@ -1,13 +1,9 @@
 {
   "manifest_version": 2,
   "name": "SiteBlock",
-  "version": "1.0",
-  "short_name": "SB",
+  "version": "2.0",
   "description": "This extension try to block entree to website",
-  "developer": {
-    "name": "Kirill Goryunov",
-    "url": "https://github.com/Pepseman727/WebExtensions/tree/master/Site%20Block"
-  },
+  "author": "Kirill Goryunov",
   "icons": {
     "32": "icons/ico32.png",
     "48": "icons/ico48.png",
@@ -37,6 +33,6 @@
     }
   ],
   "background": {
-    "scripts": [ "background.js" ]
+    "page": "background.html"
   }
 }

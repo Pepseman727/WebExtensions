@@ -8,7 +8,16 @@
 <body class="menu">
     <p class="logo"><img class="logoImg" src="../icons/ico32.png" /></p>
     <span class="logoText">SiteBlock</span>
-    <img class="pause" src="pause32.ico" />
-    <img class="help" src="how32.ico" />
+    <button id="switcher" class="pause buttons" value="off">
+        <img id="OnOff" src="../buttons/pause32.ico" alt="Swith-off extension" title="Switch-off extension" />
+    </button>
+    <button id="helper" class="help buttons">
+        <img src="../buttons/how32.ico" alt="Help" title="Help" />
+    </button>
+    <div id="tooltip">
+        To  block a site prees right mouse buttoт<br />
+        To unlock a site choose "Unlock site"
+    </div>
+    <script src="popupService.js"></script>
 </body>
 </html>
